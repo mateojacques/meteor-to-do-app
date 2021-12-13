@@ -1,0 +1,35 @@
+.task{
+    display: grid;
+    grid-template-columns: .15fr 1fr .2fr;
+}
+
+.task input[type="checkbox"] {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc
+  }
+
+  input[type="checkbox"]:active{
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  input[type="checkbox"]:checked{
+      background-color: var(--accent);
+      border: none;
+  }
+
+.task li{
+    list-style: none;
+}
+
+.task p{
+    font-size: .8rem;
+    color: #ccc;
+}
+
+.done{
+    text-decoration: line-through;
+    color: var(--accent)
+}

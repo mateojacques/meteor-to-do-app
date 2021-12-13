@@ -1,0 +1,23 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+:root{
+    --primary: #333;
+    --accent: #56E39F;
+    --accent-dark: #59C9A5;
+
+    --font: 'Epilogue', sans-serif;
+}
+
+html, body, .App{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+}
+
+a img{
+    max-width: 300px;
+}

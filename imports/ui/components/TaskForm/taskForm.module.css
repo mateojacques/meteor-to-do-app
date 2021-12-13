@@ -1,0 +1,33 @@
+.taskForm{
+    max-width: 500px;
+    width: 100% !important;
+}
+
+.input{
+    border: none;
+    border-bottom: 2px solid var(--accent);
+    box-shadow: none;
+    margin-right: 10px;
+    border-radius: 0px;
+    caret-color: var(--accent)
+}
+
+.input:focus{
+    border-color: var(--accent) !important;
+}
+
+.submit{
+    background-color: var(--accent);
+    display: flex;
+    width: 32px !important;
+    height: 32px !important;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem !important;
+    border-radius: 16px;
+}
+
+.submit:hover{
+    background-color: var(--primary);
+    color: var(--accent)
+}
