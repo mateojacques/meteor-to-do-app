@@ -2,4 +2,4 @@
 
 To-do list app built with Meteor and React.
 
-Live demo: meteor-to-do.meteorapp.com
+Live demo: https://meteor-to-do.meteorapp.com
